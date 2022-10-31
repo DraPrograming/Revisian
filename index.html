@@ -22,6 +22,10 @@
                 </div>
             </div>
             <div class="box-image">
+                <!-- nggak semua gambar perlu pake svg, kadang pake tag img, kadang pake css background-image -->
+                <!-- backgorund-image optimal untuk gambar background, contoh gambar di footer -->
+                <!-- img optimal untuk gambar berbasis bitmap atau vector -->
+                <!-- svg optimal untuk gambar berbasis vector -->
                 <svg width="636" height="713" viewBox="0 0 636 713" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="636" height="713" fill="url(#pattern0)"/>
                     <defs>
@@ -37,10 +41,13 @@
     <div class="process">
         <div class="box-process">
             <div class="first-box-process">
+                <!-- container nggak diperlukan -->
                 <div class="h2">
                     <h2>Our Process & philosophy</h2>
                 </div>
                 <div class="box-philosophy">
+                    <!-- lebih efektif pake ul > li -->
+                    <!-- nggak semua gambar perlu pake svg, kadang pake tag img, kadang pake css background-image -->
                     <div>
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M40 20C40 25.3043 37.8929 30.3914 34.1421 34.1421C30.3914 37.8929 25.3043 40 20 40C14.6957 40 9.60859 37.8929 5.85786 34.1421C2.10714 30.3914 0 25.3043 0 20C0 14.6957 2.10714 9.60859 5.85786 5.85786C9.60859 2.10714 14.6957 0 20 0C25.3043 0 30.3914 2.10714 34.1421 5.85786C37.8929 9.60859 40 14.6957 40 20ZM30.075 12.425C29.8964 12.247 29.6838 12.1069 29.4498 12.013C29.2159 11.9191 28.9654 11.8734 28.7133 11.8785C28.4613 11.8837 28.2128 11.9396 27.9829 12.0429C27.7529 12.1463 27.5462 12.2949 27.375 12.48L18.6925 23.5425L13.46 18.3075C13.1046 17.9763 12.6344 17.796 12.1487 17.8046C11.6629 17.8131 11.1995 18.0099 10.8559 18.3534C10.5124 18.697 10.3156 19.1604 10.3071 19.6462C10.2985 20.1319 10.4788 20.6021 10.81 20.9575L17.425 27.575C17.6032 27.7529 17.8154 27.893 18.049 27.9871C18.2825 28.0812 18.5326 28.1273 18.7844 28.1226C19.0361 28.118 19.2843 28.0627 19.5142 27.96C19.7441 27.8573 19.951 27.7094 20.1225 27.525L30.1025 15.05C30.4427 14.6962 30.6307 14.2232 30.626 13.7324C30.6213 13.2416 30.4244 12.7722 30.0775 12.425H30.075Z" fill="#007AFF"/>
@@ -68,10 +75,13 @@
                 </div>
             </div>
             <div class="second-box-process">
+                <!-- container nggak diperlukan -->
                 <div class="text">
                     <h3>I can’t believe how fast my test scores improved!”</h3>
+                    <!-- bisa dijadikan 1 container -->
                     <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id orci porta dapibus. Curabitur aliquet quam id dui posuere blandit. Mauris bla</p>
                     <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id orci porta dapibus. Curabitur aliquet quam id dui posuere blandit. Mauris bla</p>
+                    <!-- bisa dijadikan 1 container -->
                 </div>
                 <button>view testimonials</button>
             </div>
@@ -79,13 +89,16 @@
     </div>
     <div class="schedule">
         <div class="box-schedule">
+            <!-- container nggak diperlukan -->
             <div class="h2">
                 <h2>Schedule a Free Consultation Today</h2>
             </div>
             <div class="box-p-button">
+                <!-- container nggak diperlukan -->
                 <div class="p">
                     <p>Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt n</p>
                 </div>
+                <!-- container nggak diperlukan -->
                 <div class="button">
                     <button>SELECT DATE & TIME</button>
                 </div>
@@ -133,7 +146,9 @@
         </div>
     </div>
     
+    <!-- salah penempatan, invited termasuk di dalam footer bukan di luar -->
     <div class="invited">
+        <!-- lebih baik menggunakan css backgorund-image -->
         <div class="box-invited">
             <svg width="849" height="591" viewBox="0 0 849 591" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M677.977 -0.125101C433.019 -42.8978 245.793 41.1299 202.477 79.3749C-48.023 218.375 -16.023 426.375 36.977 514.875C89.977 603.375 215.977 569.375 276.477 529.375C336.977 489.375 547.977 570.875 647.477 589.375C727.077 604.175 799.644 459.541 825.977 385.375C859.977 283.375 884.718 35.9744 677.977 -0.125101Z" fill="#F8F9FB"/>
@@ -158,12 +173,15 @@
                 <p>(134) 908-4622</p>
             </div>
             <div class="box-contact-about">
+                <!-- lebih baik diberi kontainer, karena default display svg = inline -->
                 <svg width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.00285 41.7383C3.39559 41.7354 2.81422 41.4863 2.38624 41.0456C1.95826 40.6048 1.71858 40.0085 1.71977 39.3872C1.72509 39.1511 1.76112 38.9167 1.82692 38.6903L3.47159 32.6043C3.54034 32.3796 3.46266 32.1531 3.36177 31.9741L3.34213 31.9375C3.33498 31.9257 3.30105 31.8772 3.27695 31.8416C3.25284 31.806 3.22516 31.7676 3.20016 31.7302L3.18319 31.7055C1.10651 28.4856 -0.000303978 24.7128 9.55618e-05 20.8552C-0.0159762 15.5949 1.99567 10.6251 5.66628 6.85456C9.46457 2.96163 14.545 0.817874 19.9844 0.817874C24.5988 0.815541 29.0763 2.42118 32.6793 5.37028C36.2017 8.27033 38.65 12.3121 39.5732 16.7586C39.8574 18.1094 40.0005 19.4872 40 20.8689C40 26.2516 37.9785 31.3073 34.307 35.1061C30.6034 38.9424 25.6301 41.0487 20.3041 41.0487C18.429 41.0487 16.0299 40.5591 14.8781 40.2267C13.4923 39.8302 12.1789 39.3133 12.0343 39.2585C11.8812 39.1985 11.7187 39.1675 11.5548 39.1671C11.377 39.166 11.2008 39.2017 11.0369 39.2722L10.961 39.3023L4.93591 41.5292C4.63999 41.6566 4.32375 41.7275 4.00285 41.7383Z" fill="#AAAAAA"/>
-                    </svg>
+                </svg>
+                <!-- lebih baik diberi kontainer -->
                 <p>info@divitutor.com</p>
             </div>
         </div> 
+        <!-- lebih baik menggunakan css backgorund-image di tag footer -->
         <img src="assets/img/image-footer.png" alt="">               
     </footer>
 </body>
