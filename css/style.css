@@ -101,6 +101,7 @@ div.process{
     padding-left: 20px;
 }
 
+<<<<<<< HEAD
 .first-box-process h2{
     width: 70%;
     font-size: 40px;
@@ -108,6 +109,15 @@ div.process{
 
 .box-process .box-philosophy{
     width:100%;
+=======
+.first-box-process .h2{
+    width: 70%;
+    font-size: 30px;
+}
+
+.box-process .box-philosophy{
+    width:80%;
+>>>>>>> 1ce1e71862d5cfb0eef5ce50b4aa5add460c1831
     margin-top: 50px;
 }
 .box-philosophy ul{
@@ -139,8 +149,13 @@ div.process{
     margin-top: 70px;
 }
 
+<<<<<<< HEAD
 .second-box-process .paragraf{
     width:100%;
+=======
+.second-box-process .text{
+    width:90%;
+>>>>>>> 1ce1e71862d5cfb0eef5ce50b4aa5add460c1831
     font-size: 20px;
 }
 
@@ -150,7 +165,11 @@ div.process{
     padding: 20px;
 }
 
+<<<<<<< HEAD
 .second-box-process .paragraf p{
+=======
+.second-box-process .text p{
+>>>>>>> 1ce1e71862d5cfb0eef5ce50b4aa5add460c1831
     margin-bottom: 50px;
 }
 
@@ -195,7 +214,11 @@ div.process{
     margin-top: 50px;
     display: flex;
 }
+<<<<<<< HEAD
 .box-schedule p{
+=======
+.box-schedule .p{
+>>>>>>> 1ce1e71862d5cfb0eef5ce50b4aa5add460c1831
     width:70%;
     color: white;
     font-size: 20px;
@@ -272,10 +295,25 @@ div.process{
     height: 100vh;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     background-image: url(../assets/img/Vector\ 9.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+=======
+    position: relative;
+}
+
+.box-invited{
+    width:60%;
+    height:80vh;
+    left:0;
+    right:0;
+    margin: auto;
+    top:150px;
+    position: absolute;
+    z-index: -100;
+>>>>>>> 1ce1e71862d5cfb0eef5ce50b4aa5add460c1831
 }
 
 .invited .box-text{
@@ -283,7 +321,10 @@ div.process{
     height:80vh;
     margin: auto;
     margin-top:150px;
+<<<<<<< HEAD
     z-index: 100;
+=======
+>>>>>>> 1ce1e71862d5cfb0eef5ce50b4aa5add460c1831
 }
 
 .invited .box-text .text{
